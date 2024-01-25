@@ -6,7 +6,7 @@ export const Hero = () => {
     <>
     <Header />
       <main className="grid w-full grid-col-1 lg:grid-cols-2 shadow-2xl h-fit lg:h-[80dvh] overflow-hidden mt-20 ">
-        <div className="p-4 flex flex-col justify-center">
+        <div className="p-12 lg:p-4 flex flex-col justify-center">
           <h1 className="text-3xl lg:text-4xl font-bold block mb-3 text-center lg:text-start ">
             Descubre un Mundo de Estilo y Conveniencia
           </h1>
@@ -21,7 +21,7 @@ export const Hero = () => {
           />
         </div>
         <div className="img-container object-cover  ">
-          <img src="../public/hero-4.jpg " alt="" className="w-full h-full" />
+          <img src="/images/hero-4.jpg " alt="" className="w-full h-full" />
         </div>
       </main>
     </>
