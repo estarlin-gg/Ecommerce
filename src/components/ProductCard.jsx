@@ -2,7 +2,7 @@ import { Button } from "./Button";
 
 export const ProductCard = ({ image, title, price }) => {
   return (
-    <div className="card flex flex-col p-4 shadow-lg rounded-lg ">
+    <div className="card flex flex-col p-4 shadow-xl rounded-lg ">
       <div className="card-img object-cover w-full bg-white p-4">
         <img src={image} alt={title} className="h-72 object-contain mx-auto" />
       </div>
